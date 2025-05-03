@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download - Digital Eye Strain Helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Digital Eye Strain Helper</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/download" class="active">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="downloadSection">
+            <h1>Download Digital Eye Strain Helper</h1>
+            <div class="downloadCard">
+                <h2>Installation Steps</h2>
+                <ol class="installSteps">
+                    <li>Clone the repository from GitHub:
+                        <div class="codeBlock">
+                            <code>git clone https://github.com/JamilCPU/DigitalEyeStrainHelper.git</code>
+                            <button class="copyButton" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                    </li>
+                    <li>Create a virtual environment:
+                        <div class="codeBlock">
+                            <code>python -m venv venv</code>
+                            <button class="copyButton" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                    </li>
+                    <li>Activate the virtual environment:
+                        <div class="codeBlock">
+                            <code>venv\Scripts\activate</code>
+                            <button class="copyButton" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                    </li>
+                    <li>Install dependencies:
+                        <div class="codeBlock">
+                            <code>pip install -r requirements.txt</code>
+                            <button class="copyButton" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                    </li>
+                    <li>Run the application:
+                        <div class="codeBlock">
+                            <code>python src/App.py</code>
+                            <button class="copyButton" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="downloadButtons">
+                <a href="https://github.com/JamilCPU/DigitalEyeStrainHelper" class="githubButton" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Digital Eye Strain Helper.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
